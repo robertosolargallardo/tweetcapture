@@ -29,5 +29,6 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile("org.springframework.boot:spring-boot-configuration-processor")
 	compile("org.springframework.data:spring-data-mongodb")
+	compile("org.twitter4j:twitter4j-stream:4.0.2");
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
